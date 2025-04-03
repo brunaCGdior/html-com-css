@@ -1,3 +1,10 @@
+:root {
+    --background-color: #f3f4f6;
+    --text-color: #000;
+    --header-color:rgb(236, 149, 207);
+    --button-bg-color:rgb(219, 149, 198);
+    --button-hover-bg-color:rgb(224, 158, 199);
+}
 
 body {
     background-color: var(--background-color);
@@ -8,16 +15,16 @@ body {
 }
 
 .dark-mode {
-    --background-color: #121212;
-    --text-color: #fff;
+    --background-color:rgb(63, 63, 63);
+    --text-color: rgb(252, 245, 245);
     --header-color: #90caf9;
     --button-bg-color: #333;
     --button-hover-bg-color: #555;
-    --container-bg-color: #000; 
+    --container-bg-color: rgb(63, 63, 63); 
 }
 
 .dark-mode .contate-me {
-    color: #ffffff; 
+    color:rgb(238, 236, 137); 
 }
 
 
@@ -77,10 +84,9 @@ button {
     background-color: var(--button-bg-color);
     color: var(--text-color);
     border: none;
-    border-radius: 0.5rem; 
+    border-radius: 10px; 
     padding: 0.625rem 1rem; 
     cursor: pointer;
-    font-size: 1rem; 
     margin-top: 1rem;
 }
 
